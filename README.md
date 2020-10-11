@@ -85,5 +85,7 @@ python3 SoftLMCCL/train.py
 python3 SoftLMCCL/test.py model_save/checkpoint.pt
 ```
 
+##### Code for paper released as part of work for Deep Learning Research Internship at the Xu lab of Computational Biology, Carnegie Mellon University.
+Supervisor: [Sinuo Liu](https://scholar.google.com/citations?user=EVMvLssAAAAJ&hl=zh-CN), [Dr Min Xu](https://scholar.google.com/citations?user=Y3Cqt0cAAAAJ&hl=en)
 
 
