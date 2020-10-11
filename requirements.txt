@@ -1,0 +1,6 @@
+mrcfile==1.1.2
+torch==1.6.0+cu101
+torchvision==0.7.0+cu101
+scipy==1.4.1
+pandas==1.1.2
+numpy==1.18.5

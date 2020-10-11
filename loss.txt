@@ -1,0 +1,1 @@
+Epoch  0  Training Loss1.6823228720668373	Val loss5878504682044.56
