@@ -8,7 +8,7 @@ ___
 **Implementation using PyTorch**
 ___
 
-*Directory Structure:*
+### Directory Structure:
 ```
 ├── SoftLMCCL
 │   ├── loader
@@ -36,7 +36,7 @@ ___
     └── data3_SNRinf
 ```
 
-*Dependencies:*
+### Dependencies:
 - For installing dependencies, run:
 ```
 pip install -r SoftLMCCL/requirements.txt
@@ -45,7 +45,7 @@ pip install -r SoftLMCCL/requirements.txt
 ```
 python3 SoftLMCCL/test_req.py
 ```
-*Splitting Data:*
+### Splitting Data:
 - Before training split the data into training, testing, and validation sets. Run:
 ```
 python3 SoftLMCCL/csv_split.py
@@ -63,7 +63,7 @@ python3 SoftLMCCL/check_split.py
 ```
 - *Note: Classes have been assigned on the basis of the subtomogram filenames as I had data corresponding to that. Depending on your data, you might need to change the dataloader and the splitter. In this case, the main files to be modified are ```SoftLMCCL/csv_splt.py``` and ```SoftLMCCL/loader/dataset.py```*
 
-*Training*
+### Training
 - To train the model, run:
 ```
 python3 SoftLMCCL/train.py
@@ -79,7 +79,7 @@ python3 SoftLMCCL/train.py
 - The model generates feature maps which can be later on separated with a simple linear layers. We do not have any accuracy metrics at this point because no predictions are being made -- only features from subtomograms are being extracted.
 - *Note: The model uses a lot of overhead and needs GPU support in order to execute. For this, you should have the latest NVIDIA drivers and PyTorch compiled with CUDA*
 
-*Testing/Validation*
+### Testing/Validation
 - To generate predictions and to classify from generated features, run:
 ```
 python3 SoftLMCCL/test.py model_save/checkpoint.pt
