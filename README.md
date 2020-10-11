@@ -85,7 +85,7 @@ python3 SoftLMCCL/train.py
 python3 SoftLMCCL/test.py model_save/checkpoint.pt
 ```
 ### Results:
-For reference, the results to the validation split of the data on which the model was originally trained is provided below:
+For reference, the results of the validation split of the data on which the model was originally trained is provided below:
 <br>
 <br>
 ![Report](report.png?raw=true "Classification Report")
