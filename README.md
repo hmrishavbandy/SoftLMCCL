@@ -1,4 +1,4 @@
-# SoftLMCCL
+# Soft Large Margin Centralized Cosine Loss 
 **[Open-set Recognition of Unseen Macromolecules in Cellular Electron Cryo-Tomograms by Soft Large Margin Centralized Cosine Loss](https://bmvc2019.org/wp-content/uploads/papers/0347-paper.pdf)**
 
 #### Abstract
